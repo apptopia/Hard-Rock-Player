@@ -1,0 +1,176 @@
+strong {
+	font-style: bold;
+	font-size:16px;
+}
+.nav-noidea-app {
+background: #000000;
+
+}
+.nav-noidea-app .ui-btn .ui-btn-inner {
+	   padding-top: 50px !important;
+    overflow: hidden;
+    white-space: wrap;
+    text-overflow: clip;
+    font-size: 10px;
+}
+.nav-noidea-app .ui-btn .ui-icon {
+	width: 55px !important;
+	height: 35px !important;
+	margin-left: -25px !important;
+	box-shadow: none !important;
+	-moz-box-shadow: none !important;
+	-webkit-box-shadow: none !important;
+	-webkit-border-radius: none !important;
+	border-radius: none !important;
+	background: #000000; 
+}
+.infoImg {
+	width:100%;
+	height:auto;
+	top: 5%;
+	left: 0px;
+	z-index: -1;
+	position: absolute;
+	background:#000000;
+}
+#random .ui-icon {
+	background-image: url(images/iconrandom35x35.png);
+	background-position: 11px 0px;
+	background-repeat: no-repeat;
+}
+
+#newest .ui-icon {
+	background-image: url(images/iconnew35x35.png);
+	background-position: 11px 0px;
+	background-repeat: no-repeat;
+}
+#mostview .ui-icon {
+	background-image: url(images/iconviewed35x35.png);
+	background-position: 11px 0px;
+	background-repeat: no-repeat;
+}
+#toprated .ui-icon {
+	background-image: url(images/iconrated35x35.png);
+	background-position: 11px 0px;
+	background-repeat: no-repeat;
+}
+#myclip .ui-icon {
+	background-image: url(images/playlist35x35.png);
+	background-position: 11px 0px;
+	background-repeat: no-repeat;
+}
+
+.backImg {
+    width: 100%;
+    height:auto;
+    top: 5%;
+    left: 0px;
+    z-index: -1;
+    position: absolute;
+	background:#000000;
+}
+
+.ui-page {
+-webkit-transform-style: flat;
+-webkit-backface-visibility: hidden;
+
+background: #000000;
+}
+
+
+.ui-li-aside {
+	float: right;
+	width: 60%;
+	text-align: right;
+	margin: 2.3em 0px 0px 0px;
+	position: absolute;
+	right: 35px;
+}
+
+.ui-li-thumb, .ui-li-icon {
+    left: .7%;
+    position: absolute;
+    top: 13%;
+     with: 70%;
+    height: 70%
+}
+/**delete button **/
+.view_entry{
+
+    min-height: 25px;  
+}
+
+
+.delete_button {
+    float: right;
+    width: 60%;
+    text-align: right;
+    margin: 0.0em 0px 0px 0px;
+    position: absolute;
+    width: 80px;
+}
+
+.delete_button a {
+    width: 80px;
+    display: block;
+    overflow: hidden;
+    min-height: 25px;
+}
+
+.delete_button a img {
+    position: absolute;
+    top:50%;
+    right: 4px;
+    margin-top: -18px;
+}
+#menu_myclips .ui-btn-inner.ui-li .ui-icon {
+    display: none;
+    opacity: 0;
+}
+
+.ui-footer .ui-btn-active {
+    -webkit-border-radius: 4px !important;
+    border-radius: 4px !important;
+    background: none rgba(255,255,255,0.14);
+    color: #ffffff;
+}
+
+#menu_one.ui-listview *.ui-btn-up-a,
+#menu_one.ui-listview *.ui-btn-down-a,
+#menu_one.ui-listview *.ui-btn-hover-a,
+#menu_two.ui-listview *.ui-btn-up-a,
+#menu_two.ui-listview *.ui-btn-down-a,
+#menu_two.ui-listview *.ui-btn-hover-a,
+#menu_myclips.ui-listview *.ui-btn-up-a,
+#menu_myclips.ui-listview *.ui-btn-down-a,
+#menu_myclips.ui-listview *.ui-btn-hover-a
+  { /*btu-up style*/
+	border: 1px solid  #000000  /*{a-bup-border}*/;
+	background:  #ffffff  /*{a-bup-background-color}*/;
+	font-weight: bold;
+	color: #ffffff /*{a-bup-color}*/;
+	text-shadow:   0   /*{a-bup-shadow-x}*/   1px   /*{a-bup-shadow-y}*/   1px   /*{a-bup-shadow-radius}*/ #000000 /*{a-bup-shadow-color}*/;
+	background-image: -webkit-gradient(linear, left top, left bottom, from( #009DE1 /*{a-bup-background-start}*/), to( #024969 /*{a-bup-background-end}*/)); /* Saf4+, Chrome */
+	background-image: -webkit-linear-gradient(top, #009DE1 /*{a-bup-background-start}*/, #024969 /*{a-bup-background-end}*/); /* Chrome 10+, Saf5.1+ */
+	background-image:    -moz-linear-gradient(top, #009DE1 /*{a-bup-background-start}*/, #024969 /*{a-bup-background-end}*/); /* FF3.6 */
+	background-image:     -ms-linear-gradient(top, #009DE1 /*{a-bup-background-start}*/, #024969 /*{a-bup-background-end}*/); /* IE10 */
+	background-image:      -o-linear-gradient(top, #009DE1 /*{a-bup-background-start}*/, #024969 /*{a-bup-background-end}*/); /* Opera 11.10+ */
+	background-image:         linear-gradient(top, #009DE1 /*{a-bup-background-start}*/, #024969 /*{a-bup-background-end}*/);
+}
+  	
+  } 
+     
+     label.error {
+            color: red;
+            font-size: 16px;
+            font-weight: normal;
+            line-height: 1.4;
+            margin-top: 0.5em;
+            width: 100%;
+            float: none;
+             display: block;
+        }
+        label.error {
+            display: inline-block;
+            margin-left: 22%;
+        }
